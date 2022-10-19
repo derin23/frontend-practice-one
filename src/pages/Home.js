@@ -13,7 +13,7 @@ export default function Home() {
     const result = await axios.get("http://localhost:8080/users");
     setUsers(result.data)
   }
-
+//having issues making the table load with backend data
 
   return (
     <div className='container'>
